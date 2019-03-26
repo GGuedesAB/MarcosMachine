@@ -1,0 +1,16 @@
+  INP A
+  INP B
+  CAL S
+  DA  A
+  DA  B
+  JLZ O
+  JZE O
+  SAD A
+  OUT A
+  JMP H
+O OUT Z
+H HLT  
+Z DC  0
+A DC  0
+B DC  0
+  END  

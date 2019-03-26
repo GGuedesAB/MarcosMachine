@@ -1,0 +1,29 @@
+  INP A
+  INP B
+  LAD B
+  SAD D
+  JMP S
+M LAD D
+  SAD H
+  DOB  
+  SAD D
+S LAD A
+  SUB D
+  JLZ T
+  JZE F
+  JGZ M
+T LAD A
+  SUB H
+  JLZ F
+  SAD A
+  LAD B
+  SAD D
+  JMP S
+F OUT A
+  HLT 
+H DC  0 
+A DC  0
+B DC  0
+C DC  0
+D DC  0
+  END  

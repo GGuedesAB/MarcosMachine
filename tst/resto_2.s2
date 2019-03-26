@@ -1,0 +1,16 @@
+S LAI  
+  SAD C
+  LAI  
+  SAD D
+  LAD C
+P SAD E
+  SUB D
+  JZE R
+  JLZ N
+  JGZ P
+N LAD E
+R RET  
+C DC  0
+D DC  0
+E DC  0
+  END  
